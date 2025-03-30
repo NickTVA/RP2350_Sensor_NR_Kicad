@@ -1,4 +1,4 @@
-24721101075977316
+24722844447598271
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87548,6 +87548,13 @@ Skyworks
 0
 7
 7
+RFID-RC522
+RFID-RC522
+MFRC522 RFID Module<br><br>Created by: Wai Weng
+
+0
+8
+8
 RF_Antenna
 AVX_M620720
 868Mhz, 915Mhz ISM antenna, 6 x 2 x 1.08mm, http://datasheets.avx.com/ethertronics/AVX-E_M620720.pdf

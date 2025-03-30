@@ -435,8 +435,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -13.97 27.94 0)
+			(property "Reference" "U1"
+				(at 0 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -444,14 +444,14 @@
 				)
 			)
 			(property "Value" "Pico"
-				(at 0 19.05 0)
+				(at 0 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+			(property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH"
 				(at 0 0 90)
 				(effects
 					(font
@@ -479,7 +479,7 @@
 				)
 			)
 			(symbol "Pico_0_0"
-				(text "Raspberry Pi Pico"
+				(text "RP2350 W"
 					(at 0 21.59 0)
 					(effects
 						(font
@@ -1272,6 +1272,348 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RFID-RC522:RFID-RC522"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at -7.62 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "RFID-RC522:RFID-RC522"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "REMARK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Handson Technology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Development kit in an integrated reader/writer IC MFRC522 for contactless communication at 13.56 MHz.\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PNP-LIB" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RFID-RC522"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/RFID-RC522/Handson+Technology/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RFID-RC522/Handson+Technology/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CYTRON-PC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "RFID-RC522"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESC" "MFRC522 RFID Module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "RFID-RC522_0_0"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IRQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2139,6 +2481,12 @@
 		)
 	)
 	(junction
+		(at 133.35 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ca429e0-81a9-4632-8eee-4b4da1b3d1b5")
+	)
+	(junction
 		(at 170.18 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2149,6 +2497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ad0dd2c-6c3a-471d-a3ff-4a3763064842")
+	)
+	(junction
+		(at 133.35 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8669b514-136d-4a91-84c0-b2d6f6c91a55")
 	)
 	(junction
 		(at 236.22 39.37)
@@ -2183,6 +2537,16 @@
 			(type default)
 		)
 		(uuid "0040403a-7d40-4241-8a34-420c9099576c")
+	)
+	(wire
+		(pts
+			(xy 186.69 49.53) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9ed20c-2494-4ccf-9273-9c969f120923")
 	)
 	(wire
 		(pts
@@ -2276,6 +2640,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 77.47) (xy 231.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f90f4d-59b8-4aaf-870d-554be327e4b8")
+	)
+	(wire
+		(pts
 			(xy 186.69 29.21) (xy 190.5 29.21)
 		)
 		(stroke
@@ -2313,6 +2687,26 @@
 			(type default)
 		)
 		(uuid "3d98a5f8-f3bc-4afb-b7f4-ee3a8acf9620")
+	)
+	(wire
+		(pts
+			(xy 186.69 44.45) (xy 190.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4367cd55-d481-4129-91ab-ae795e4ad175")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e9bfd7-1f99-4e08-a0c7-e3f231dfed7a")
 	)
 	(wire
 		(pts
@@ -2386,6 +2780,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 72.39) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3b615b-b47e-423f-aee2-fb80931ddd8f")
+	)
+	(wire
+		(pts
 			(xy 243.84 52.07) (xy 248.92 52.07)
 		)
 		(stroke
@@ -2403,6 +2807,16 @@
 			(type default)
 		)
 		(uuid "7f810af7-7023-4bb8-b311-048da1745986")
+	)
+	(wire
+		(pts
+			(xy 186.69 52.07) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860ddf04-39a5-41ce-8751-904f4ab76766")
 	)
 	(wire
 		(pts
@@ -2466,16 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a90124b1-15d3-4552-8cb8-9d1de61b29df")
-	)
-	(wire
-		(pts
 			(xy 248.92 62.23) (xy 250.19 62.23)
 		)
 		(stroke
@@ -2493,16 +2897,6 @@
 			(type default)
 		)
 		(uuid "b3ccf76f-58f8-40f9-8527-b06bf921e846")
-	)
-	(wire
-		(pts
-			(xy 130.81 76.2) (xy 121.92 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4170500-9396-4ae5-af16-fd7613dd983e")
 	)
 	(wire
 		(pts
@@ -2526,6 +2920,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26c2ac5-a2a1-4559-9e78-78bb8e9e7798")
+	)
+	(wire
+		(pts
 			(xy 153.67 54.61) (xy 156.21 54.61)
 		)
 		(stroke
@@ -2536,6 +2940,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 41.91) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d189c0ce-29da-490e-99ac-092ac7ee6b62")
+	)
+	(wire
+		(pts
 			(xy 121.92 72.39) (xy 115.57 72.39)
 		)
 		(stroke
@@ -2543,6 +2957,16 @@
 			(type default)
 		)
 		(uuid "d7a1e3a0-d842-424d-8f9a-afcab616add6")
+	)
+	(wire
+		(pts
+			(xy 226.06 57.15) (xy 254 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8cf640b-ab31-4361-a127-cc01c6d492df")
 	)
 	(wire
 		(pts
@@ -2624,6 +3048,16 @@
 		)
 		(uuid "09312859-8773-45bb-9b92-99b74826d0d2")
 	)
+	(label "RFID_SDA"
+		(at 160.02 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1559524e-6696-4f42-bdda-1d4115e82836")
+	)
 	(label "SDA"
 		(at 186.69 29.21 0)
 		(effects
@@ -2633,6 +3067,26 @@
 			(justify left bottom)
 		)
 		(uuid "1e3e30c4-43f4-4dee-9587-b8c5417b5783")
+	)
+	(label "MOSI"
+		(at 160.02 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ec2e2aa-c598-43dc-a8a7-0e37a5378ca1")
+	)
+	(label "RFID_SCK"
+		(at 160.02 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fd09789-3174-4c59-bccc-f22acb46a3ba")
 	)
 	(label "SDA"
 		(at 153.67 52.07 180)
@@ -2664,6 +3118,26 @@
 		)
 		(uuid "438cbd3c-2c8a-40ca-8506-a3e526dbc109")
 	)
+	(label "RFID_SCK"
+		(at 186.69 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87111b07-d9f9-4082-b90c-f167697bf286")
+	)
+	(label "RFID_IRQ"
+		(at 231.14 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "990c4119-1647-4149-9713-8971342f93db")
+	)
 	(label "SCL"
 		(at 186.69 31.75 0)
 		(effects
@@ -2674,6 +3148,26 @@
 		)
 		(uuid "a4228053-ab87-4567-ac44-20ffaaf61f52")
 	)
+	(label "MOSI"
+		(at 186.69 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b33e96a6-af8e-4d57-9489-dff2cae03c2e")
+	)
+	(label "RFID_IRQ"
+		(at 160.02 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8b78df7-a806-488b-a6a4-29d1a0184af4")
+	)
 	(label "SDA"
 		(at 152.4 36.83 180)
 		(effects
@@ -2683,6 +3177,56 @@
 			(justify right bottom)
 		)
 		(uuid "e38d8e36-e781-4286-877e-52e9b040c56f")
+	)
+	(label "MISO"
+		(at 160.02 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8b792e1-c76d-48ea-ae78-4e002e5088cd")
+	)
+	(label "MISO"
+		(at 185.42 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea421910-93fd-4632-b02d-d7c05be57c6f")
+	)
+	(label "RFID_SDA"
+		(at 186.69 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec7f560b-06aa-4411-b8e4-87660d8b4258")
+	)
+	(label "RFID_RST"
+		(at 254 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef3a1410-3a29-4b94-8b13-ae63ffe28352")
+	)
+	(label "RFID_RST"
+		(at 160.02 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe239916-89e2-4adf-9034-f1d46f0bc624")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -2815,6 +3359,73 @@
 			(project "pico_env"
 				(path "/6dba3083-6c09-45e9-a4ce-1abe57dde23a"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5aa341-ede2-402d-ae35-c9ce7f653a59")
+		(property "Reference" "#PWR16"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3ae960a-038b-412e-be12-0e744bb13e1c")
+		)
+		(instances
+			(project "pico_env"
+				(path "/6dba3083-6c09-45e9-a4ce-1abe57dde23a"
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -3225,6 +3836,233 @@
 		)
 	)
 	(symbol
+		(lib_id "RFID-RC522:RFID-RC522")
+		(at 149.86 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39768bea-00d7-4e54-ac91-55ab3a14fca4")
+		(property "Reference" "M1"
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RFID-RC522"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RFID-RC522:RFID-RC522"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REMARK" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Handson Technology"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Development kit in an integrated reader/writer IC MFRC522 for contactless communication at 13.56 MHz.\n                        \n"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PNP-LIB" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RFID-RC522"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RFID-RC522/Handson+Technology/view-part/?ref=eda"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RFID-RC522/Handson+Technology/view-part/?ref=snap"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CYTRON-PC" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RFID-RC522"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESC" "MFRC522 RFID Module"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "f404401e-f8cf-4703-b3c7-744ef010ac1f")
+		)
+		(pin "2"
+			(uuid "f01ce0c7-c508-4dc8-a60a-d18a998140c5")
+		)
+		(pin "3"
+			(uuid "e43d5476-132f-40f6-9619-1b5a0da54f02")
+		)
+		(pin "5"
+			(uuid "c3fcc523-a65b-4fc7-8127-4df97f91a21b")
+		)
+		(pin "4"
+			(uuid "f05ef912-a1ed-4945-90f1-25bed9b29011")
+		)
+		(pin "7"
+			(uuid "fe870a44-ab2e-4331-b457-51795c707198")
+		)
+		(pin "6"
+			(uuid "82983a3d-bb69-4d4b-a555-58d2d44b4720")
+		)
+		(pin "1"
+			(uuid "7355fe0e-4f81-47ce-b091-2cdb70bbf67b")
+		)
+		(instances
+			(project ""
+				(path "/6dba3083-6c09-45e9-a4ce-1abe57dde23a"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 57.15 270)
 		(unit 1)
@@ -3496,6 +4334,140 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 190.5 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4298d0eb-14cf-4668-b3bb-4d98f7ef3c62")
+		(property "Reference" "#PWR17"
+			(at 184.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bc16a1b-2682-4eca-9b9f-79aa7818eb32")
+		)
+		(instances
+			(project "pico_env"
+				(path "/6dba3083-6c09-45e9-a4ce-1abe57dde23a"
+					(reference "#PWR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5a04de-03aa-456b-9f99-050b958e6c39")
+		(property "Reference" "#PWR12"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 163.83 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd7fc56-e65c-4ab1-af8b-969ca9eb0fe0")
+		)
+		(instances
+			(project "pico_env"
+				(path "/6dba3083-6c09-45e9-a4ce-1abe57dde23a"
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 226.06 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3569,10 +4541,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d241d4c-ef80-4599-a66a-7a0b3769f644")
 		(property "Reference" "GY-BME/BMP1"
-			(at 170.18 34.9249 0)
+			(at 165.354 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +5297,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c380e3e5-9106-49f7-9ee8-60ec8e93babd")
 		(property "Reference" "U2"
 			(at 175.26 53.3399 0)
@@ -4338,7 +5308,7 @@
 			)
 		)
 		(property "Value" "module_bh1750"
-			(at 175.26 55.8799 0)
+			(at 166.878 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
